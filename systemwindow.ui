@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SystemWindow</class>
+ <widget class="QDialog" name="SystemWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>829</width>
+    <height>317</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>151</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Разрешение экрана:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="resolutionLabel">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>50</y>
+     <width>161</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Разрешение</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableNetwork">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>821</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="columnCount">
+    <number>5</number>
+   </property>
+   <column>
+    <property name="text">
+     <string>Имя</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Тип подключения</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>IP</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Маска подсети</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Широковещательный адрес</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>90</y>
+     <width>231</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Список сетевых интерфейсов</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>681</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Версия операционной системы:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="versionLabel">
+      <property name="text">
+       <string>Ошибка системного вызова uname</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

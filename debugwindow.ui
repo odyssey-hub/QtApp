@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DebugWindow</class>
+ <widget class="QDialog" name="DebugWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableView" name="tableActions">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>391</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableCode">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>120</y>
+     <width>351</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delTableActions_button">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>390</y>
+     <width>141</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Очистить таблицу</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteRecord_button">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>390</y>
+     <width>121</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Удалить запись</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboSortField">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>60</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Код</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Время</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Результат</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="sort_button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сортировка</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboSortOrder">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>60</y>
+     <width>151</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>По возрастанию</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>По убыванию</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="searchLine">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>51</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Поиск</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboSearchField">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>90</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Код</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Время</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Результат</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QCheckBox" name="checkSearch">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>90</y>
+     <width>92</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>по части</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="altpath_Button">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>381</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Указать альтернативное расположение файла БД</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>100</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Расшифровка</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
